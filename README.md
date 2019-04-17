@@ -12,6 +12,10 @@ It will look at people who have previously authored commits in the current repos
 
 [attribution]: https://help.github.com/en/articles/creating-a-commit-with-multiple-authors
 
+## Demo
+
+![Demo of the plugin in action](./demo.gif)
+
 ## Installation
 
 Note: this plugin requires that you have installed [fzf.vim], as it is just a thin wrapper on top of that.
