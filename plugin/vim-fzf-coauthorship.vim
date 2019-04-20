@@ -6,7 +6,8 @@ endfunction
 function! Coauthorship()
   call fzf#run({
     \ 'source': 'git log --pretty="%an <%ae>" | sort | uniq',
-    \ 'sink': function('AttributeCoauthorship')
+    \ 'sink': function('AttributeCoauthorship'),
+    \ 'options': "--preview 'git log -1 --author {} --pretty=\"authored %h %ar:%n%n%B\"'"
     \ })
 endfunction
 
