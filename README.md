@@ -36,6 +36,7 @@ git commit -v
 ```
 
 Now that you're in vim, just run `:Coauthorship` and hit enter to invoke the plugin.
+Thereafter you can interactively search for other co-authors, and select one or more with `<TAB>` key-presses.
 
 If you'd like to invoke it with `<C-g>` (control g), you can add this line to your vimrc:
 
